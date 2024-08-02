@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>elixir</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>You will get zero benefit allowing this app accessing your location. You should see this alert.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+    <string>Your location is not needed. This request has popped up due to a 3rd party framework used by the app in a context that does NOT need you to reveal you location. Do be sure to check audit trail for the location queries on ios 15 or later.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>You will get zero benefit allowing this app accessing your location. You should never see this alert. If you do alert technical support at foo@bar.baz</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AvertaPE-Bold.otf</string>
+		<string>AvertaPE-BlackItalic.otf</string>
+		<string>AvertaPE-Black.otf</string>
+		<string>AvertaPE-BoldItalic.otf</string>
+		<string>AvertaPE-ExtraboldItalic.otf</string>
+		<string>AvertaPE-ExtrathinItalic.otf</string>
+		<string>AvertaPE-Extrathin.otf</string>
+		<string>AvertaPE-LightItalic.otf</string>
+		<string>AvertaPE-Light.otf</string>
+		<string>AvertaPE-RegularItalic.otf</string>
+		<string>AvertaPE-Regular.otf</string>
+		<string>AvertaPE-SemiboldItalic.otf</string>
+		<string>AvertaPE-Semibold.otf</string>
+		<string>AvertaPE-Thin.otf</string>
+		<string>AvertaPE-ThinItalic.otf</string>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+	</array>
+</dict>
+</plist>

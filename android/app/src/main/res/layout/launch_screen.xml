@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:background="#13322B"
+>
+  <ImageView 
+    android:id="@+id/imageView"
+    android:src="@drawable/launch_screen"
+    android:layout_width="160dp"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:layout_gravity="center_horizontal"
+    android:scaleType="centerInside"
+  >
+  </ImageView>
+</FrameLayout>
